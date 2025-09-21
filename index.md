@@ -34,7 +34,27 @@ title: Team20 毕业设计
 - **Peiyao Shi** — 邮箱：_待填_  
   个人介绍：_占位_
 
-## 项目进度记录 (Progress Log)
+## 
+### 团队任务分工 (Team Task Assignments)
+
+<div style="text-align: center; margin-top: 1rem;">
+  <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="60" cy="60" r="55" fill="#225D9B"/>
+    <circle cx="60" cy="60" r="40" fill="#FFFFFF"/>
+    <circle cx="85" cy="40" r="20" fill="#F5C542"/>
+  </svg>
+</div>
+
+- **Bowen Liu** — 算法设计与优化  
+  负责开发、改进和实现 T-MOEA/D；进行参数调优和对比实验；撰写可重复的实验代码和技术文档，为任务规划提供核心技术支持。
+- **Yichen Wang** — 目标检测模块  
+  基于 YOLOv9 开发水雷检测模型；负责数据收集、清洗与 StyleGAN 增强；完成模型训练和性能优化，输出稳定的检测接口。
+- **Peiyao Shi** — 系统架构与仿真  
+  构建 UUV 系统架构与硬件集成；搭建 Unity3D 仿真环境和行为脚本；完成任务流程的联合调试与仿真验证。
+- **Shengdan Zheng** — 实验与结果分析  
+  组织水雷检测/ 处罞与任务分配实验；收集整理实验数据；进行结果分析与报告撰写，总结问题与改进建议。
+
+项目进度记录 (Progress Log)
 
 - 查看全部进度：👉 [进度记录 / Progress](/progress/)
 
