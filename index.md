@@ -3,7 +3,6 @@ layout: home
 title: Team20 毕业设计
 ---
 
-<!-- Site-wide styles -->
 <style>
 body {
   background-image: url('{{ "/uuv_background.jpg" | relative_url }}');
@@ -11,39 +10,49 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-/* Wrap main content in a translucent panel for readability */
 .main-content {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.90);
   padding: 2rem;
   border-radius: 12px;
   margin: 2rem auto;
   max-width: 900px;
 }
+.hero {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.hero-logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.hero-logo-title h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 1.3;
+}
+.hero-logo-title p {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
 </style>
 
-<!-- Hero Section -->
-<div style="position: relative; text-align: center; color: white;">
-  <!-- Logo at top-left -->
-  <div style="position: absolute; top: 20px; left: 20px;">
-    <svg width="80" height="80" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="60" cy="60" r="55" fill="#2250D5" />
-      <circle cx="60" cy="60" r="40" fill="#FFFFFF" />
-      <circle cx="85" cy="40" r="20" fill="#FFC542" />
-    </svg>
-  </div>
-
-  <!-- Background image -->
-  <img src="https://images.unsplash.com/photo-1507525428034-b723cf9d61d2?auto=format&fit=crop&w=1200&q=80" alt="Underwater background" style="width: 100%; height: auto; filter: brightness(0.6);" />
-
-  <!-- Title and subtitle on hero -->
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-    <h1 style="font-size: 2.2rem; font-weight: bold; margin: 0;">基于偏好多目标优化的多无人水下航行器 (UUV) 协同反水雷任务规划研究</h1>
-    <p style="font-size: 1.2rem; margin-top: 0.5rem;">融合 T‑MOEA/D 算法与 YOLOv9 目标检测的 UUV 路径规划及水雷处置方法</p>
-  </div>
-</div>
-
-<!-- Main Content Wrapper -->
 <div class="main-content">
+  <div class="hero">
+    <div class="hero-logo-title">
+      <svg width="80" height="80" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="55" fill="#2250D5" />
+  <circle cx="60" cy="60" r="40" fill="#FFFFFF" />
+  <circle cx="85" cy="40" r="20" fill="#FFC542" />
+</svg>
+      <div>
+        <h1>基于偏好多目标优化的多无人水下航行器 (UUV) 协同反水雷任务规划研究</h1>
+        <p>融合 T‑MOEA/D 算法与 YOLOv9 目标检测的 UUV 路径规划及水雷处置方法</p>
+      </div>
+    </div>
+  </div>
 
 ## 项目目标 (Project Objectives)
 
@@ -76,7 +85,7 @@ body {
 
 ## 项目进度记录 (Progress Log)
 
-- 查看全部进度：👉 <a href="{{ '/progress/' | relative_url }}">项目进度记录 / Progress</a>
+- 查看全部进度：👉 <a href="{ '/progress/' | relative_url }">项目进度记录 / Progress</a>
 
 > 使用方式：每完成一个阶段/会议/里程碑，就在 `progress/` 文件夹中新建一条 Markdown 记录。
 
