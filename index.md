@@ -39,7 +39,7 @@ body {
 }
 </style>
 
-<div class="main-content">
+<div class="main-content" markdown="1">
   <div class="hero">
     <div class="hero-logo-title">
       <svg width="80" height="80" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
